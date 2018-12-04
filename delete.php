@@ -7,7 +7,6 @@ if(!empty($_GET['id']))
 {
     $id = $_REQUEST['id'];
 }
-
 if(!empty($_POST))
 {
     $id = $_POST['id'];
