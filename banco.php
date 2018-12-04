@@ -3,9 +3,9 @@
 class Banco
 {
     private static $dbNome = 'contato';
-    private static $dbHost = 'localhost:3306';
+    private static $dbHost = 'localhost';
     private static $dbUsuario = 'root';
-    private static $dbSenha = '';
+    private static $dbSenha = 'mysql';
     
     private static $cont = null;
     
